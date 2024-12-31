@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookSky</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gupter:wght@400;500;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Booksky</h1>
+    </div>
+            <div class="container">         
+            <div class="book-container">
+            <h2>wings of fire</h2>
+            <h5>A.B.J.Abdul kalam</h5>
+            <p>Abdul Kalam's biography, Wings of Fire, tells the tale of his ascent from obscurity to leading role in India's development of the AGNI, TRISHUL, and NAG missiles. His career as a defence scientist was unmatched, and culminated in his receiving India's highest civilian honour Bharat Ratna.</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book Tittle" id="book-tittle-input">
+            <input type="text"placeholder="Book Author" id="book-author-input">
+            <textarea placeholder="Short Description" id="book-description-input"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancal-popup">CANCAL</button>
+        </form>
+    </div>
+    <button class="add-button" id="add-popup-button">+</button>
+  <script src="script.js"></script>
+</body> </html>
+
+
+
+
+
+
+
+
